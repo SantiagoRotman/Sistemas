@@ -1,0 +1,12 @@
+    if(j >= 2 && args[i][j-2] && !strcmp(args[i][j-2], ">")){
+    if(!buffer) return;
+        if(token && !strcmp(token, "|")){
+        if(j >= MAX_ARGS-1){
+            if(i != comandos-1) pipe(fd);
+            if(fork() == 0){
+                if(redir && i == comandos-1) freopen(redir, "w+", stdout);
+                if(i != comandos-1)  close(fd[1]);
+                if(i != 0) close(aux[0]);
+                if(comandos != 1){
+                    if(i != comandos-1){
+                    if(i != 0) {

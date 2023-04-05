@@ -1,0 +1,1 @@
+La funcion ungetc funciona escribiendo el caracter en el buffer del stream
